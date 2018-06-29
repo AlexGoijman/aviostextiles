@@ -1,28 +1,88 @@
-.body{
+/*.body{
  background-image: url('https://cdn.shopify.com/s/files/1/1994/1911/files/Fondo_Web_-_Final.jpg?3503079597161189483');
  background-repeat: no-repeat;
  background-position: right top;
- background-attachment: inherit;
-}
-.mail{
-  color: #ffffff;
-}
-.envios{
-  color: #ffffff;
-}
-.nav{
-  color: #ffffff;
+ background-attachment: inherit;*/
+
+.body{
+background: url('https://cdn.shopify.com/s/files/1/1994/1911/files/Fondo_Web_-_Final.jpg?3503079597161189483') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.avios {
+.mail{
   color: #ffffff;
+  margin: 30px;
+}
+a {
+
+  float: right;
+}
+
+li{
+  list-style: none;
+ }
+ nav {
+   text-align: center;
+   background-color: black;
+ }
+ nav ul {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   /* Para IE 7*/
+   zoom:1;
+   *display: inline;
+ }
+ nav li {
+   float: left;
+   padding: 2px 5px;
+   margin: 15px;
+ }
+ nav li a{
+   text-decoration: none;
+   color: #ffffff;
+ }
+  /*nav li a:hover{
+   color: #fa8b09;
+ }*/
+
+.logo_grande{
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*.avios {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 180px;
+  font-size: 70px;
+  letter-spacing: 5px;
+
 }
 .eslogan{
   color: #ffffff;
-}
+  text-align: center;
+}*/
 .texto{
   color: #ffffff;
+  text-align: center;
+  font-size: 22px;
 }
 .gracias{
   color: #ffffff;
+  text-align: center;
+}
+
+.logo_Chico {
+  width: 100%;
+  height: auto;
+
 }
